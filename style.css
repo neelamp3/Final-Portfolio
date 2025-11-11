@@ -1,1 +1,260 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('Bgrnd.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+/* Banner Section */
+.banner {
+  background-color: #9b79b9; /* Softer purple tone */
+  color: #f0e5d8; /* Light beige for contrast */
+  padding: 20px;
+  text-align: left;
+  font-family: 'Fantasy', sans-serif;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 3px solid #ffffff;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #3a3a3a; /* Dark grey for contrast */
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: #f0e5d8; /* Light beige for links */
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 17px;
+  transition: background-color 0.3s, color 0.3s;
+  border: 2px solid transparent;
+}
+
+.navbar a:hover {
+  background-color: #8000ff; /* Purple hover background */
+  color: #ffffff; /* White text on hover */
+  border-color: #8000ff;
+}
+
+/* Main Container */
+.container {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  color: #ffffff;
+  border: 5px solid #8000ff; /* Purple border */
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+/* Info Section */
+.info-section {
+  border: 2px solid #8000ff; /* Purple border */
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 4px;
+  background-color: rgba(67, 39, 99, 0.6); /* Semi-transparent purple */
+}
+
+.info-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Image Styling */
+img {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  margin: 15px 0;
+  display: block;
+}
+
+/* Links with unique IDs */
+#cfu1, #cfu2, #cfu3, #cfu4, #Family, #Friends, #Movies, #hobbies {
+  border: 2px solid #8000ff;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+  background-color: rgba(67, 39, 99, 0.6);
+  color: #ffffff;
+}
+
+#cfu5 {
+  border: 2px solid #8000ff;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgba(67, 39, 99, 0.6);
+}
+
+#cfu1:hover, #cfu2:hover, #cfu3:hover, #cfu4:hover, #cfu5:hover {
+  background-color: #8000ff; /* Purple hover effect */
+}
+
+.wave {
+  background-color: rgba(67, 39, 99, 0.6); /* Purple wave background */
+  color: #ffffff;
+  height: 75px;
+  overflow: hidden;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  transition: height 10s;
+}
+
+.contact-info h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.contact-info {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 900px;
+  max-width: 600px;
+  border: 2px solid #8000ff;
+  border-radius: 8px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Email Styling */
+.email-info {
+  margin-top: 20px;
+}
+
+.email-section {
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.email-section h3 {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.email-icon {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.email-section p {
+  margin: 0;
+  font-size: 1em;
+  color: #ffffff;
+  display: inline;
+}
+
+/* Gallery Section */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.image-box {
+  width: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid #8000ff;
+  border-radius: 8px;
+  padding: 10px;
+  color: #ffffff;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 12px;
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Project Section */
+#project1, #project2, #project3, #project4, #project5 {
+  border: 2px solid #8000ff;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+  background-color: rgba(67, 39, 99, 0.6);
+  color: #ffffff;
+}
+
+.wave:hover {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.wave h2 {
+  margin-top: 0;
+  font-size: 1.6em;
+  color: #ffffff;
+}
+
+.wave a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.wave a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.wave p {
+  margin: 15px 0 0;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.wave a:visited {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+p:hover {
+  color: #ffcc00; /* Gold color for hover effect */
+}
